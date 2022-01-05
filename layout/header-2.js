@@ -84,7 +84,7 @@ function Header2() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                 <Link href="/contact-us-2">
-                                        <a className="btn btn-primary rounded-xl gradient shadow">Get A Quote</a>
+                                        <a className="btn btn-primary rounded-xl gradient shadow">Send us Enquiry</a>
                                     </Link>
                                 </div>
                             </div>
@@ -105,6 +105,7 @@ function Header2() {
                                 <ul className="nav navbar-nav navbar">
                                    
 									<li><Link href="/"><a>Home</a></Link></li>
+									<li><Link href="/about-us-2"><a>About</a></Link></li>
                                     <li
                                         className={`${
                                             open === "about" ? "open" : ""
@@ -122,8 +123,11 @@ function Header2() {
                                             <li><Link href="/coming-soon"><a>Coming Soon</a></Link></li>
                                             <li><Link href="/error-404"><a>Error 404</a></Link></li>
                                             <li><Link href="/sitedown"><a>Site Down</a></Link></li>
+
                                         </ul>
                                     </li>
+                                    {/* ading media buying section ... */}
+									<li><Link href="/about-us-2"><a>Media Buying</a></Link></li>
                                     <li className={`${open === "services" ? "open" : ""}`}><a onClick={() => setOpen("services")}><span>Services</span><i className="fa fa-chevron-down"></i></a>
 										<ul className="sub-menu">
 											<li><Link href="/services-2"><a>Services</a></Link></li>

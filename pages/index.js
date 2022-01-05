@@ -30,7 +30,7 @@ function Index2() {
         <Service />
         <Service2nd/>
         {/* <Counter2 /> */}
-        {/* <OurServices2 /> */}
+        <OurServices2 />
         {/* <Projects2 /> */}
         {/* <Pricing2 /> */}
         {/* <Testimonial2 /> */}
