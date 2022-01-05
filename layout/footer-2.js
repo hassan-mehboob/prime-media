@@ -33,21 +33,21 @@ function Footer2() {
 					<div className="col-xl-3 col-lg-4 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
                         <div className="widget widget_about">
 							<div className="footer-logo">
-								<a href="/"><img src="images/logo-white.png" alt=""/></a> 
+								<a href="/"><img src="images/logoprime.png" alt=""/></a> 
 							</div>
 							<div className="widget widget_getintuch">
 								<ul>
 									<li>
 										<i className="fa fa-phone gradient"></i>
-										<span>+91 123-456-7890<br/>+91 987-654-3210</span> 
+										<span>+92 321888337 (Whatsapp)<br/>+92 4235781788</span> 
 									</li>
 									<li>
 										<i className="fa fa-envelope gradient"></i> 
-										<span>info@example.com <br/>info@example.com</span>
+										<span>info@primemedia.com</span>
 									</li>
 									<li>
 										<i className="fa fa-map-marker gradient"></i>
-										<span>Marmora Road Chi Minh City, Vietnam</span>
+										<span>Office # P-37 Siddiq Trade Centre Gulberg Lahore Pakistan</span>
 									</li>
 								</ul>
 							</div>
@@ -82,7 +82,6 @@ function Footer2() {
 						   <h5 className="footer-title">Other links</h5>
 							<ul>
 								<li><Link href="#"><a>FAQ</a></Link></li>
-								<li><Link href="#"><a>Portfolio</a></Link></li>
 								<li><Link href="#"><a>Privacy Policy</a></Link></li>
 								<li><Link href="#"><a>Terms & Conditions</a></Link></li>
 								<li><Link href="#"><a>Support </a></Link></li>

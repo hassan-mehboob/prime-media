@@ -56,7 +56,7 @@ function Slider2() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Learn More
+                  Our Services
                 </a>
               </div>
             </div>

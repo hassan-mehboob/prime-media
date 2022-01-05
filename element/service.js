@@ -97,7 +97,7 @@ function Service() {
               >
                 <div className="icon-bx-md radius bg-green shadow-green">
                   <a href="#" className="icon-cell">
-                    <i className="flaticon-pie-charts"></i>
+                    <i className="flaticon-dollar"></i>
                   </a>
                 </div>
                 <div className="icon-content">
@@ -111,6 +111,8 @@ function Service() {
               </div>
             </div>
           </div>
+          {/* Second Part  */}
+          
         </div>
       </section>
     </>
