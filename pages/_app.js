@@ -59,7 +59,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
 		<Head>
-			<title>Samar - React Template</title>
+			<title>Social Media Marketing</title>
 			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
         </Head>	
       <div className="page-wraper">

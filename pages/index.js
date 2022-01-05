@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import AboutUs from "../element/aboutUs";
+import Head from 'next/head'
 import Blog2 from "../element/blog-2";
 import Clients2 from "../element/clients-2";
 // import Counter2 from "../element/counter2";
@@ -17,6 +18,10 @@ function Index2() {
  
   return (
     <>
+      <Head>
+        <title>Social Media Marketing</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header2 />
       <div className="page-content bg-white">
         <Slider2 />

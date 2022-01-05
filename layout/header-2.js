@@ -16,8 +16,8 @@ function Header2() {
                                         info@primemedia.pk
                                     </li>
                                     <li>
-                                        <i className="la la-phone-volume"></i> +91
-                                        924235781788
+                                        <i className="la la-phone-volume"></i> +92
+                                        4235781788
                                     </li>
                                 </ul>
                             </div>
