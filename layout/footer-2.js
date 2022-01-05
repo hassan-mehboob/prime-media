@@ -96,14 +96,14 @@ function Footer2() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-7 text-left"> 
-						<span className="copyright-text">Copyright © 2021 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span> 
+						<span className="copyright-text">Copyright © 2021 Designed by Prime Media. All rights reserved.</span> 
 					</div>
 					<div className="col-lg-6 col-md-5 text-right"> 
 						<div className="dlab-social-icon">
 							<ul>
-								<li><a className="fa fa-facebook" href="https://en-gb.facebook.com/"></a></li>
-								<li><a className="fa fa-instagram" href="https://www.instagram.com/"></a></li>
-								<li><a className="fa fa-twitter" href="https://twitter.com/login?lang=en"></a></li>
+								<li><a className="fa fa-facebook" href="https://www.facebook.com/MediaBuyingAdvertisingAgencyinLahorePakistan/"></a></li>
+								<li><a className="fa fa-linkedin" href="https://www.linkedin.com/company/prime-media-pakistan/"></a></li>
+								<li><a className="fa fa-twitter" href="https://twitter.com/primemediapk"></a></li>
 							</ul>
 						</div>
 					</div>

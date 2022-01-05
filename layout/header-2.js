@@ -17,9 +17,13 @@ function Header2() {
                                     </li>
                                     <li>
                                         <i className="la la-phone-volume"></i> +92
-                                        4235781788
+                                        4235781788                                        
                                     </li>
-                                </ul>
+                                    <li>
+                                        <i className="la la-phone-volume"></i> +92
+                                        4235781788 (Whatsapp)                                       
+                                    </li>
+                                </ul>                                
                             </div>
                             <div className="dlab-topbar-right">
                                 <ul className="dlab-social-icon">
