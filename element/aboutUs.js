@@ -16,11 +16,11 @@ function AboutUs() {
                               <h6 className="sub-title bgl-primary m-b20 text-primary">About Us</h6>
                               <h2 className="title">How We Can Help You Achieve Your Business Goal</h2>
                           </div>
-                          <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
-                          <p className="m-b30">Mauris egestas eleifend sapien eu malesuada. Phasellus at metus eget sapien tristique accumsan non sit amet augue.</p>
-                          <img src="images/sign.png" alt=""/>
-                          <h4 className="m-b30">CEO Jhone Doe</h4>
-                         <Link href="about-us-1"><a  className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Learn More</a></Link> 
+                          <p>We are coming out with an unfailing strategy to achieve those targets. Out social media experts share your dreams, limitations, and nature of the brand and they come up with the best possible media buying option and advertising strategy. In your success and achieving targets lies our success.</p>
+                          <p className="m-b30">Interested? Get your free proposal on how we can help you on social media marketing.</p>
+                          {/* <img src="images/sign.png" alt=""/>
+                          <h4 className="m-b30">CEO Jhone Doe</h4> */}
+                         <Link href="about-us-2"><a  className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Learn More</a></Link> 
                       </div>
                   </div>
               </div>

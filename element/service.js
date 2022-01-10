@@ -45,11 +45,9 @@ function Service() {
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Strategy & Research</h4>
+                  <h4 className="dlab-title">Social Media Marketing</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                  Social media marketing has brought the revolution in the world of business. It offers abundant opportunities of marketing. These opportunities can be experienced, in many cases, going viral virtually overnight
                   </p>
                 </div>
               </div>
@@ -73,11 +71,9 @@ function Service() {
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Web Development</h4>
+                  <h4 className="dlab-title">Media Buying</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                  Prime Media is a top ranked media buying agency in Pakistan which offers high quality and result oriented media buying and advertisement services on electronic, print and outdoor media. 
                   </p>
                 </div>
               </div>
@@ -101,11 +97,9 @@ function Service() {
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Web Solution</h4>
+                  <h4 className="dlab-title">Web Designing</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                  Our company provides services that are outstanding and will bring your ideas to life. We have the capacity to fulfill all your needs and requirements within a set timeframe and we never believe in compromising just for the sake of finishing the project.
                   </p>
                 </div>
               </div>

@@ -40,11 +40,10 @@ function Service2nd() {
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">SEO & Marketing</h4>
+                  <h4 className="dlab-title">SEO</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                  Search Engine Optimization Services
+Prime media provide you cost-effective SEO and Social media marketing services in Pakistan in order to enhance your business criteria and visitors for your E-business site by top listing in search engines results.
                   </p>
                 </div>
               </div>
@@ -68,11 +67,9 @@ function Service2nd() {
                   </a>
                 </div>
                 <div className="icon-content">
-                  <h4 className="dlab-title">Google Adwards</h4>
+                  <h4 className="dlab-title">Outdoor Media</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                  Outdoor Media Pakistan is an everlasting and never declining medium to advertise. If you are thinking about launching an Outdoor Media campaign in Pakistan or online media buying for advertisement.
                   </p>
                 </div>
               </div>
@@ -98,9 +95,8 @@ function Service2nd() {
                 <div className="icon-content">
                   <h4 className="dlab-title">TVC Production</h4>
                   <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
+                  TVC ProductionServices
+Now prim media provide Tvc Commercial making in Lahore, best video productions and Documentaries maker in Pakistan. Television Commercial Production is a growing industry nowadays. People are investing more and more budget on it.
                   </p>
                 </div>
               </div>

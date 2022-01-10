@@ -39,7 +39,7 @@ function BlogSlider2() {
 					<div className="item">
 						<div className="dlab-blog style-2 m-b10">
 							<div className="dlab-media rounded-md">
-							<img src="images/blog/blog-grid-2/pic2.jpg" alt=""/>
+							<img src="images/blog/blog-grid-2/advertising2.jpg" alt=""/>
 							</div>
 							<div className="dlab-info">
 								<div className="dlab-meta">

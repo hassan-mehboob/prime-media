@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/digital-marketing": [
+    "/about-us-2": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/digital-marketing.js"
+      "static/chunks/pages/about-us-2.js"
     ]
   },
   "ampFirstPages": []
