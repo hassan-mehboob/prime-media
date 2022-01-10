@@ -17,11 +17,11 @@ function Header2() {
                                     </li>
                                     <li>
                                         <i className="la la-phone-volume"></i> +92
-                                        4235781788                                        
+                                        42 3 578 1788                                        
                                     </li>
                                     <li>
-                                        <i className="la la-phone-volume"></i> +92
-                                        4235781788 (Whatsapp)                                       
+                                        <i className="la la-phone   "></i> +92
+                                        321 888 3377 (Whatsapp)                                       
                                     </li>
                                 </ul>                                
                             </div>
@@ -105,7 +105,27 @@ function Header2() {
                                 <ul className="nav navbar-nav navbar">
                                    
 									<li><Link href="/"><a>Home</a></Link></li>
-									<li><Link href="/about-us-2"><a>About</a></Link></li>
+                                    <li
+                                        className={`${
+                                            open === "about" ? "open" : ""
+                                        }`}
+                                    >
+                                        <a onClick={() => setOpen("about")}>
+                                            <span>About</span>
+                                            <i className="fa fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="sub-menu">
+                                            <li><Link href="/about-us-2"><a>Our Vision</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>Our Creative</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>Our Approach</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>Our Philosophy</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>What We do</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>How We do</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>Client Services</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>Why Choose Us</a></Link></li>
+
+                                        </ul>
+                                    </li>
                                     <li
                                         className={`${
                                             open === "about" ? "open" : ""
@@ -116,18 +136,28 @@ function Header2() {
                                             <i className="fa fa-chevron-down"></i>
                                         </a>
                                         <ul className="sub-menu">
-											<li><Link href="/faq-2"><a>Faq</a></Link></li>
+											{/* <li><Link href="/faq-2"><a>Faq</a></Link></li>
 											<li><Link href="/pricing-table-2"><a>Pricing Table</a></Link></li>
 											<li><Link href="/team-2"><a>Team</a></Link></li>
                                             <li><Link href="/coming-soon"><a>Coming Soon</a></Link></li>
-                                            <li><Link href="/error-404"><a>Error 404</a></Link></li>
-                                            <li><Link href="/services-2"><a>Services</a></Link></li>
+                                            <li><Link href="/error-404"><a>Error 404</a></Link></li> */}
+                                            {/* <li><Link href="/services-2"><a>Services</a></Link></li>
 											<li><Link href="/services-details-2"><a>Services Details</a></Link></li>
-                                            <li><Link href="/sitedown"><a>Site Down</a></Link></li>
+                                            <li><Link href="/sitedown"><a>Site Down</a></Link></li> */}
                                             <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Social Media Marketing</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Online Marketing</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Facebook Marketing</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Google Adwards</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Print Media</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Outdoor Media</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Electronic Media</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>TVC Production</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Web Designing</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Advertising</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>SEO</a></Link></li>
+
 
                                         </ul>
                                     </li>
