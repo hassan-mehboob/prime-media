@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import SimpleReactLightbox from 'simple-react-lightbox';
 import {SRLWrapper, useLightbox} from 'simple-react-lightbox'; 
 
-
 function Portfolio2() {
   const portfolio = [
     {
@@ -12,7 +11,7 @@ function Portfolio2() {
       category: ["all", "web_design", "branding"],
       img: (
         <Image
-          src="/images/projects/pic1.jpg"
+          src="/images/blog/blog-grid/webDesigning/web-designing01.jpg"
           layout="responsive"
           width={370}
           height={370}
@@ -22,10 +21,36 @@ function Portfolio2() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "web_development", "branding"],
+      category: ["all", "logo_design", "branding"],
       img: (
         <Image
-          src="/images/projects/pic2.jpg"
+          src="/images/blog/blog-grid/logoDesign/logoDesign06.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "logo_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/logoDesign/logoDesign05.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "web_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/webDesigning/web-designing02.jpg"
           layout="responsive"
           width={370}
           height={370}
@@ -51,7 +76,7 @@ function Portfolio2() {
       category: ["all", "web_design", "branding"],
       img: (
         <Image
-          src="/images/projects/pic4.jpg"
+          src="/images/blog/blog-grid/webDesigning/web-designing03.jpg"
           layout="responsive"
           width={370}
           height={370}
@@ -61,7 +86,46 @@ function Portfolio2() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "mobile_app", "seo"],
+      category: ["all", "web_design", "seo"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/webDesigning/web-designing09.jpg"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "web_design", "seo"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/webDesigning/web-designing05.jpg"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "web_design", "seo"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/webDesigning/web-designing06.jpg"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["web_design", "seo"],
       img: (
         <Image
           src="/images/projects/pic5.jpg"
@@ -74,7 +138,7 @@ function Portfolio2() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "web_design", "branding"],
+      category: ["web_design", "branding"],
       img: (
         <Image
           src="/images/projects/pic6.jpg"
@@ -85,6 +149,214 @@ function Portfolio2() {
       ),
       author: "Jhone Doe",
     },
+    {
+      title: "Software Landing Page Design",
+      category: ["graphic_designing", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/graphicDesigning/graphicDesigning02.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["graphic_designing", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/graphicDesigning/graphicDesigning03.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["graphic_designing", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/graphicDesigning/graphicDesigning04.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["logo_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/logoDesign/logoDesign01.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["logo_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/logoDesign/logoDesign02.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["logo_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/logoDesign/logoDesign03.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["logo_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/logoDesign/logoDesign04.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile01.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile02.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile03.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile04.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile05.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile06.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile07.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile08.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["profile_design", "branding"],
+      img: (
+        <Image
+          src="/images/blog/blog-grid/profileDesigning/profile09.png"
+          layout="responsive"
+          width={370}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    }
   ];
 
   const [filter, setFilter] = useState("all");
@@ -120,33 +392,25 @@ function Portfolio2() {
               Web Design
             </a>
           </li>
-          <li className={`btn ${filter === "web_development" ? "active" : ""}`}>
+          <li className={`btn ${filter === "graphic_designing" ? "active" : ""}`}>
             <a
-              active={"web_development"}
-              onClick={() => setFilter("web_development")}
+              active={"graphic_designing"}
+              onClick={() => setFilter("graphic_designing")}
             >
-              Web Development
+              Graphic Designing
             </a>
           </li>
-          <li className={`btn ${filter === "branding" ? "active" : ""}`}>
+          <li className={`btn ${filter === "logo_design" ? "active" : ""}`}>
             <a
-              active={"branding"}
-              onClick={() => setFilter("branding")}
+              active={"logo_design"}
+              onClick={() => setFilter("logo_design")}
             >
-              Branding
+              Logo Design
             </a>
           </li>
-          <li className={`btn ${filter === "mobile_app" ? "active" : ""}`}>
-            <a
-              active={"mobile_app"}
-              onClick={() => setFilter("mobile_app")}
-            >
-              Mobile App
-            </a>
-          </li>
-          <li className={`btn ${filter === "seo" ? "active" : ""}`}>
-            <a active={"seo"} onClick={() => setFilter("seo")}>
-              SEO
+          <li className={`btn ${filter === "profile_design" ? "active" : ""}`}>
+            <a active={"profile_design"} onClick={() => setFilter("profile_design")}>
+              Profile Design
             </a>
           </li>
         </ul>

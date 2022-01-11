@@ -171,14 +171,15 @@ function Header2() {
 
 										</ul>
 									</li>
-                                    <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Portfolio</span><i className="fa fa-chevron-down"></i></a>
+									<li><Link href="/portfolio"><a>Portfolio</a></Link></li>
+                                    {/* <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Portfolio</span><i className="fa fa-chevron-down"></i></a>
 										<ul className="sub-menu">
 											<li><Link href="/portfolio-web-designing"><a>Web Designing</a></Link></li>
 											<li><Link href="/portfolio-graphic-designing"><a>Graphic Designing</a></Link></li>
 											<li><Link href="/portfolio-logo-designing"><a>Logo Designing</a></Link></li>
 											<li><Link href="/blog-details-2"><a>Profile Designing</a></Link></li>
 										</ul>
-									</li>
+									</li> */}
 									<li><Link href="/contact-us-2"><a>Contact Us</a></Link></li>
 									
                                 </ul>

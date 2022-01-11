@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -29,25 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/blog-social-media": [
+    "/portfolio": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/blog-social-media.js"
-    ],
-    "/online-marketing": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/online-marketing.js"
+      "static/chunks/pages/portfolio.js"
     ],
     "/portfolio-graphic-designing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/portfolio-graphic-designing.js"
-    ],
-    "/portfolio-web-designing": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/portfolio-web-designing.js"
     ]
   },
   "ampFirstPages": []
