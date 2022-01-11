@@ -4,6 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/blog-social-media": "pages/blog-social-media.js",
-  "/online-marketing": "pages/online-marketing.js",
-  "/digital-marketing": "pages/digital-marketing.js"
+  "/online-marketing": "pages/online-marketing.js"
 }

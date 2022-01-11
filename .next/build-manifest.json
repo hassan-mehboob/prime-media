@@ -34,11 +34,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog-social-media.js"
     ],
-    "/digital-marketing": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/digital-marketing.js"
-    ],
     "/online-marketing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
