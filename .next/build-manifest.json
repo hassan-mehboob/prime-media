@@ -38,6 +38,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/online-marketing.js"
+    ],
+    "/portfolio-graphic-designing": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/portfolio-graphic-designing.js"
+    ],
+    "/portfolio-web-designing": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/portfolio-web-designing.js"
     ]
   },
   "ampFirstPages": []

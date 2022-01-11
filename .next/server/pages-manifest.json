@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/blog-social-media": "pages/blog-social-media.js",
-  "/online-marketing": "pages/online-marketing.js"
+  "/online-marketing": "pages/online-marketing.js",
+  "/": "pages/index.js",
+  "/portfolio-web-designing": "pages/portfolio-web-designing.js",
+  "/portfolio-graphic-designing": "pages/portfolio-graphic-designing.js"
 }

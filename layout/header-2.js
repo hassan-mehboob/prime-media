@@ -163,17 +163,19 @@ function Header2() {
                                     </li>
                                     {/* ading media buying section ... */}
 									<li><Link href="/about-us-2"><a>Media Buying</a></Link></li>
-									<li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
+									<li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blogs</span><i className="fa fa-chevron-down"></i></a>
 										<ul className="sub-menu">
-											<li><Link href="/blog-grid-2"><a>Blog Grid</a></Link></li>
-											<li><Link href="/blog-details-2"><a>Blog Details</a></Link></li>
+											<li><Link href="/blog-digital-marketing"><a>Digital Marketing</a></Link></li>
+											<li><Link href="/blog-print-media"><a>Print Media</a></Link></li>
+											<li><Link href="/blog-social-media"><a>Social Media</a></Link></li>
+
 										</ul>
 									</li>
                                     <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Portfolio</span><i className="fa fa-chevron-down"></i></a>
 										<ul className="sub-menu">
-											<li><Link href="/blog-grid-2"><a>Web Designing</a></Link></li>
-											<li><Link href="/blog-details-2"><a>Graphic Designing</a></Link></li>
-											<li><Link href="/blog-details-2"><a>Logo Designing</a></Link></li>
+											<li><Link href="/portfolio-web-designing"><a>Web Designing</a></Link></li>
+											<li><Link href="/portfolio-graphic-designing"><a>Graphic Designing</a></Link></li>
+											<li><Link href="/portfolio-logo-designing"><a>Logo Designing</a></Link></li>
 											<li><Link href="/blog-details-2"><a>Profile Designing</a></Link></li>
 										</ul>
 									</li>
