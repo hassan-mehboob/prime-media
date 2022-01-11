@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function AboutUs_2() {
+function AboutUs_2({ourVision}) {
     return (
       <>
         {/* <!-- About us --> */}
@@ -14,15 +14,15 @@ function AboutUs_2() {
 					</div>
 					<div className="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
 						<div className="section-head style-3">
-							<h6 className="sub-title text-primary bgl-primary m-b15">ABOUT US</h6>
+							<h6 className="sub-title text-primary bgl-primary m-b15">{ourVision}</h6>
 							<h2 className="title m-b20">We Have Creative Team To Build Your Website Better</h2>
-							<p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
+							<p>We Communicate with advertising agencies and media owners to develop media strategies & get details of media places from advertising agencies to plane or nest ad places.</p>
 						</div>
 						<ul className="list-check primary m-b30">
-							<li>Suspendisse ullamcorper mollis orci in facilisis.</li>
-							<li>Etiam orci magna, accumsan varius enim volutpat.</li>
-							<li>Donec fringilla velit risus, in imperdiet turpis euismod quis.</li>
-							<li>Aliquam pulvinar diam tempor erat pellentesque, accumsan mauri.</li>
+							<li>From Design to finish product.</li>
+							<li>Unlimited Revision.</li>
+							<li>Modern Point of view and work with any budget.</li>
+							<li>We will plan to make your goal unique.</li>
 						</ul>
 						<Link href="/about-us-2"><a className="btn btn-primary rounded-xl gradient">Learn More</a></Link>
 					</div>

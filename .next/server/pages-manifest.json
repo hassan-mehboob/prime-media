@@ -3,5 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/about-us-2": "pages/about-us-2.js"
+  "/blog-social-media": "pages/blog-social-media.js",
+  "/online-marketing": "pages/online-marketing.js",
+  "/digital-marketing": "pages/digital-marketing.js"
 }

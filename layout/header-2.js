@@ -115,8 +115,8 @@ function Header2() {
                                             <i className="fa fa-chevron-down"></i>
                                         </a>
                                         <ul className="sub-menu">
-                                            <li><Link href="/about-us-2"><a>Our Vision</a></Link></li>
-                                            <li><Link href="/about-us-2"><a>Our Creative</a></Link></li>
+                                            <li><Link href="/our-vision"><a>Our Vision</a></Link></li>
+                                            <li><Link href="/our-creative"><a>Our Creative</a></Link></li>
                                             <li><Link href="/about-us-2"><a>Our Approach</a></Link></li>
                                             <li><Link href="/about-us-2"><a>Our Philosophy</a></Link></li>
                                             <li><Link href="/about-us-2"><a>What We do</a></Link></li>
@@ -145,13 +145,13 @@ function Header2() {
 											<li><Link href="/services-details-2"><a>Services Details</a></Link></li>
                                             <li><Link href="/sitedown"><a>Site Down</a></Link></li> */}
                                             <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li>
-                                            <li><Link href="/digital-marketing"><a>Social Media Marketing</a></Link></li>
-                                            <li><Link href="/digital-marketing"><a>Online Marketing</a></Link></li>
+                                            <li><Link href="/online-marketing"><a>Online Marketing</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Facebook Marketing</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Google Adwards</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Print Media</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Outdoor Media</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Social Marketing</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Electronic Media</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>TVC Production</a></Link></li>
                                             <li><Link href="/digital-marketing"><a>Web Designing</a></Link></li>

@@ -12,7 +12,7 @@ function BlogDetails2() {
 				<div className="dlab-bnr-inr style-2 overlay-gradient-dark" style={{ "backgroundImage": "url(images/banner/bnr1.jpg)" }}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1>Blog Single</h1>
+							<h1>Blog</h1>
 							{/* <!-- Breadcrumb Row --> */}
 							<nav aria-label="breadcrumb" className="breadcrumb-row">
 								<ul className="breadcrumb">
